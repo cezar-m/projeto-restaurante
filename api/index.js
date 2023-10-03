@@ -13,4 +13,4 @@ app.use("/product", productRoutes);
 app.use("/login", loginRoutes);
 app.use("/cadusuario", userRoutes);
 
-app.listen(8800);
+app.listen(8073);
