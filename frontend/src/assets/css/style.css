@@ -1,0 +1,39 @@
+.form-fields {
+	width: 60%;
+	display: block;
+	padding: .375rem .75rem;
+	font-size: 1rem;
+	font-weight: 400;
+	line-height: 1.5;
+	color: var(--bs-body-color);
+	appearance: none;
+	background-color: var(--bs-body-bg);
+	background-clip: padding-box;
+	border: var(--bs-border-width) solid var(--bs-border-color);
+	border-radius: var(--bs-border-radius);
+	transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+}
+
+.table {
+	width: 90%;
+}
+
+.form_container {
+	width: 30%;
+}
+
+.background {
+	background-color: #e0e0e0;
+}
+
+@media screen and (max-width: 1000px) {
+	.form_container {
+		width: 45%;
+	}
+}
+
+@media screen and (max-width: 700px) {
+	.form_container {
+		width: 65%;
+	}
+}
