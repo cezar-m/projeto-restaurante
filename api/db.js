@@ -1,10 +1,10 @@
 import mysql from "mysql";
 
 export const db = mysql.createConnection({
-  host: "localhost",
+  host: "containers-us-west-170.railway.app",
   user: "root",
-  password: "",
-  database: "restaurante",
+  password: "A7MI31PANEYEtKxklqG9",
+  database: "railway",
 });
 
 db.connect(function(err){
